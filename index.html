@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniels</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar">
+    <nav id="navbar" class="navbar navbar-expand-lg bg-white pt-3 pb-2 position-fixed start-0 top-0 end-0 z-4 w-100">
+        <div class="container">
+            <a class="navbar-brand text-black" href="#">DANIELS</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item px-2">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link" href="#works">Works</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link" href="#client">Clients</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link" href="#team">Team</a>
+                    </li>
+                    <li class="nav-item px-2">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header id="home" class="home vh-100">
+        <div class="container text-white d-flex flex-column justify-content-center align-items-center h-100">
+            <h1 class="fw-bolder mb-4 ">Hello</h1>
+            <!-- <h2 class="h1 mb-5" id="element"></h2> -->
+            <h2 class="mb-5 h2">I Am <span class="animation" id="element"></span></h2>
+            <div class="icons d-flex">
+                <div class="circle">
+                    <i class="fa-brands fa-facebook-f fa-sm " style="color: #ffffff;"></i>
+                </div>
+                <div class="circle">
+                    <i class="fa-brands fa-twitter fa-sm  " style="color: #ffffff;"></i>
+                </div>
+                <div class="circle">
+                    <i class="fa-brands fa-linkedin-in fa-sm  " style="color: #ffffff;"></i>
+                </div>
+                <div class="circle">
+                    <i class="fa-brands fa-behance fa-sm  " style="color: #ffffff;"></i>
+                </div>
+                <div class="circle">
+                    <i class="fa-brands fa-youtube fa-sm  " style="color: #ffffff;"></i>
+                </div>
+            </div>
+
+        </div>
+    </header>
+    <section id="about" class="about">
+        <div class="container py-5">
+            <div class="row py-5 gy-5">
+                <div class="col-lg-5 left ">
+                    <div class="img mb-5 ">
+                        <img class="w-100 z-3 " src="images/hero.jpg" alt="">
+                        <!-- <div class="dot position-absolute"><img src="images/dot.jpg" alt=""></div> -->
+                    </div>
+
+                </div>
+                <div class="col-lg-7">
+                    <div>
+                        <h2 class="fw-bolder">About Me.</h2>
+                        <p class="text-muted about-p1">UI / UX Designer & Web Developer</p>
+                        <p class="text-muted" style="color:  rgb(116, 129, 130); line-height: 1.6 px; font-size: 15px;">
+                            I am <span class="fw-bold">Jerry Daniels</span> Lorem Ipsum is simply
+                            dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the industry's standard dummy text ever It has survived not only five
+                            centuries, but also the leap into electronic but also the leap into electronic typesetting,
+                            remaining essentially unchanged. It was popularised in the 1960s with the release of
+                            Letraset sheets containing
+                        </p>
+                        <div class="pt-3">
+                            <div class="progress mb-4" role="progressbar" aria-label="Success example"
+                                aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar first bg-black d-flex justify-content-between" >
+                                    <div class="d-flex justify-content-between px-3 pt-1">
+                                        <p>Web Design</p>
+                                        <p>95%</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="progress mb-4" role="progressbar" aria-label="Info example" aria-valuenow="80"
+                                aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar second bg-black d-flex justify-content-between">
+                                    <div class="d-flex justify-content-between px-3 pt-1">
+                                        <p>Branding</p>
+                                        <p>80%</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="90"
+                                aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar third bg-black d-flex justify-content-between ">
+                                    <div class="d-flex justify-content-between px-3 pt-1">
+                                        <p>Development</p>
+                                        <p>90%</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-5">
+                            <button class="py-2 px-4 rounded btn1"
+                                style="color:rgb(238, 238, 238); background: rgb(28, 28, 28);">Download C.V</button>
+                            <button class="py-2 px-4  text-muted rounded btn2">Contact Me</button>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section id="services" class="services py-5 bg-body-tertiary">
+        <div class="container text-center py-3">
+            <div class="d-flex justify-content-center align-items-center">
+                <div class="dot-head">
+                    <h1 class="head h1">Services.</h1>
+                </div>
+            </div>
+
+            <div class="row py-5 g-4">
+                <div class="col-lg-4 box cd">
+                    <div class="pt-5 bg-white px-2 rounded-2">
+                        <div class="pb-5 icon d-flex justify-content-center align-items-center">
+                            <i class="fa-solid fa-laptop fa-xl" style="color: #000000;"></i>
+                        </div>
+                        <h3 class="fw-bolder fs-5 pt-3 pb-2">Web Design</h3>
+                        <p class="text-muted fs-6 pb-5">Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the
+                            industry's standard dummy
+                            text ever</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 box cd">
+                    <div class="pt-5 bg-white px-2 rounded-2">
+                        <div class="pb-5 icon d-flex justify-content-center align-items-center">
+                            <i class="fa-solid fa-bullhorn fa-2xl" style="color: #000000;"></i>
+                        </div>
+                        <h3 class="fw-bolder fs-5 pt-3 pb-2">Web Design</h3>
+                        <p class="text-muted fs-6 pb-5">Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the
+                            industry's standard dummy
+                            text ever</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 box cd ">
+                    <div class="pt-5 bg-white px-2 rounded-2">
+                        <div class="pb-5 icon d-flex justify-content-center align-items-center">
+                            <i class="fa-solid fa-umbrella fa-2xl" style="color: #000000;"></i>
+                        </div>
+                        <h3 class="fw-bolder fs-5 pt-3 pb-2">Web Design</h3>
+                        <p class="text-muted fs-6 pb-5">Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the
+                            industry's standard dummy
+                            text ever</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 box cd">
+                    <div class="pt-5 bg-white px-2 rounded-2">
+                        <div class="pb-5 icon d-flex justify-content-center align-items-center">
+                            <i class="fa-solid fa-gem fa-2xl" style="color: #000000;"></i>
+                        </div>
+                        <h3 class="fw-bolder fs-5 pt-3 pb-2">Web Design</h3>
+                        <p class="text-muted fs-6 pb-5">Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the
+                            industry's standard dummy
+                            text ever</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 box cd ">
+                    <div class="pt-5 bg-white px-2 rounded-2">
+                        <div class="pb-5 icon d-flex justify-content-center align-items-center">
+                            <i class="fa-solid fa-tv fa-xl" style="color: #000000;"></i>
+                        </div>
+                        <h3 class="fw-bolder fs-5 pt-3 pb-2">Web Design</h3>
+                        <p class="text-muted fs-6 pb-5">Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the
+                            industry's standard dummy
+                            text ever</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 box cd">
+                    <div class="pt-5 bg-white px-2 rounded-2">
+                        <div class="pb-5 icon d-flex justify-content-center align-items-center">
+                            <i class="fa-solid fa-camera fa-2xl" style="color: #000000;"></i>
+                        </div>
+                        <h3 class="fw-bolder fs-5 pt-3 pb-2">Web Design</h3>
+                        <p class="text-muted fs-6 pb-5">Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the
+                            industry's standard dummy
+                            text ever</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="works" class="works py-4">
+        <div class="container text-center py-5">
+            <div class="d-flex justify-content-center align-items-center">
+                <div class="dot-head">
+                    <h1 class="head h1">Portfolio.</h1>
+                </div>
+            </div>
+
+
+            <ul class="nav nav-pills mb-3 mt-5 m-auto d-flex justify-content-center align-items-center" id="pills-tab"
+                role="tablist">
+                <li class="nav-item p-0" role="presentation">
+                    <button class="nav-link active" id="pills-all-tab" data-bs-toggle="pill" data-bs-target="#pills-all"
+                        type="button" role="tab" aria-controls="pills-all" aria-selected="true">All</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-brand-tab" data-bs-toggle="pill" data-bs-target="#pills-brand"
+                        type="button" role="tab" aria-controls="pills-brand" aria-selected="false">Brand</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-design-tab" data-bs-toggle="pill" data-bs-target="#pills-design"
+                        type="button" role="tab" aria-controls="pills-design" aria-selected="false">Design</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-graphic-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-graphic" type="button" role="tab" aria-controls="pills-graphic"
+                        aria-selected="false">Graphic</button>
+                </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab"
+                    tabindex="0">
+                    <div class="row g-4 py-5">
+                        <div class="col-md-6 col-lg-4">
+                            <div class="img position-relative">
+                                <img class="w-100" src="images/portfolio/1.jpg" alt="">
+                                <div
+                                    class="caption position-absolute  d-flex flex-column justify-content-center align-items-center opacity-0">
+                                    <p class="fw-bold text text-black">WEB DESIGN</p>
+                                    <div class="d-flex ">
+                                        <div class="circle">
+                                            <i class="pe-2 fa-solid fa-chain-slash fa-xs" style="color: #ffffff;"></i>
+                                        </div>
+                                        <div class="circle">
+                                            <i class="fa-solid fa-magnifying-glass-plus fa-xs"
+                                                style="color: #ffffff;"></i>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="img position-relative">
+                                <img class="w-100" src="images/portfolio/2.jpg" alt="">
+                                <div
+                                    class="caption position-absolute  d-flex flex-column justify-content-center align-items-center opacity-0">
+                                    <p class="fw-bold text text-black">WEB DESIGN</p>
+                                    <div class="d-flex ">
+                                        <div class="circle">
+                                            <i class="pe-2 fa-solid fa-chain-slash fa-xs" style="color: #ffffff;"></i>
+                                        </div>
+                                        <div class="circle">
+                                            <i class="fa-solid fa-magnifying-glass-plus fa-xs"
+                                                style="color: #ffffff;"></i>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="img position-relative">
+                                <img class="w-100" src="images/portfolio/3.jpg" alt="">
+                                <div
+                                    class="caption position-absolute  d-flex flex-column justify-content-center align-items-center opacity-0">
+                                    <p class="fw-bold text text-black">WEB DESIGN</p>
+                                    <div class="d-flex ">
+                                        <div class="circle">
+                                            <i class="pe-2 fa-solid fa-chain-slash fa-xs" style="color: #ffffff;"></i>
+                                        </div>
+                                        <div class="circle">
+                                            <i class="fa-solid fa-magnifying-glass-plus fa-xs"
+                                                style="color: #ffffff;"></i>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="img position-relative">
+                                <img class="w-100" src="images/portfolio/4.jpg" alt="">
+                                <div
+                                    class="caption position-absolute  d-flex flex-column justify-content-center align-items-center opacity-0">
+                                    <p class="fw-bold text text-black">WEB DESIGN</p>
+                                    <div class="d-flex ">
+                                        <div class="circle">
+                                            <i class="pe-2 fa-solid fa-chain-slash fa-xs" style="color: #ffffff;"></i>
+                                        </div>
+                                        <div class="circle">
+                                            <i class="fa-solid fa-magnifying-glass-plus fa-xs"
+                                                style="color: #ffffff;"></i>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="img position-relative">
+                                <img class="w-100" src="images/portfolio/5.jpg" alt="">
+                                <div
+                                    class="caption position-absolute  d-flex flex-column justify-content-center align-items-center opacity-0">
+                                    <p class="fw-bold text text-black">WEB DESIGN</p>
+                                    <div class="d-flex ">
+                                        <div class="circle">
+                                            <i class="pe-2 fa-solid fa-chain-slash fa-xs" style="color: #ffffff;"></i>
+                                        </div>
+                                        <div class="circle">
+                                            <i class="fa-solid fa-magnifying-glass-plus fa-xs"
+                                                style="color: #ffffff;"></i>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="img position-relative">
+                                <img class="w-100" src="images/portfolio/6.jpg" alt="">
+                                <div
+                                    class="caption position-absolute  d-flex flex-column justify-content-center align-items-center opacity-0">
+                                    <p class="fw-bold text text-black">WEB DESIGN</p>
+                                    <div class="d-flex ">
+                                        <div class="circle">
+                                            <i class="pe-2 fa-solid fa-chain-slash fa-xs" style="color: #ffffff;"></i>
+                                        </div>
+                                        <div class="circle">
+                                            <i class="fa-solid fa-magnifying-glass-plus fa-xs"
+                                                style="color: #ffffff;"></i>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-brand" role="tabpanel" aria-labelledby="pills-brand-tab"
+                    tabindex="0">
+                    <div class="row g-4 py-5">
+                        <div class="col-md-6 col-lg-4">
+                            <div class="img position-relative">
+                                <img class="w-100" src="images/portfolio/4.jpg" alt="">
+                                <div
+                                    class="caption position-absolute  d-flex flex-column justify-content-center align-items-center opacity-0">
+                                    <p class="fw-bold text text-black">WEB DESIGN</p>
+                                    <div class="d-flex ">
+                                        <div class="circle">
+                                            <i class="pe-2 fa-solid fa-chain-slash fa-xs" style="color: #ffffff;"></i>
+                                        </div>
+                                        <div class="circle">
+                                            <i class="fa-solid fa-magnifying-glass-plus fa-xs"
+                                                style="color: #ffffff;"></i>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="img position-relative">
+                                <img class="w-100" src="images/portfolio/6.jpg" alt="">
+                                <div
+                                    class="caption position-absolute  d-flex flex-column justify-content-center align-items-center opacity-0">
+                                    <p class="fw-bold text text-black">WEB DESIGN</p>
+                                    <div class="d-flex ">
+                                        <div class="circle">
+                                            <i class="pe-2 fa-solid fa-chain-slash fa-xs" style="color: #ffffff;"></i>
+                                        </div>
+                                        <div class="circle">
+                                            <i class="fa-solid fa-magnifying-glass-plus fa-xs"
+                                                style="color: #ffffff;"></i>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-design" role="tabpanel" aria-labelledby="pills-design-tab"
+                    tabindex="0">
+                    <div class="row g-4 py-5">
+                        <div class="col-md-6 col-lg-4">
+                            <div class="img position-relative">
+                                <img class="w-100" src="images/portfolio/2.jpg" alt="">
+                                <div
+                                    class="caption position-absolute  d-flex flex-column justify-content-center align-items-center opacity-0">
+                                    <p class="fw-bold text text-black">WEB DESIGN</p>
+                                    <div class="d-flex ">
+                                        <div class="circle">
+                                            <i class="pe-2 fa-solid fa-chain-slash fa-xs" style="color: #ffffff;"></i>
+                                        </div>
+                                        <div class="circle">
+                                            <i class="fa-solid fa-magnifying-glass-plus fa-xs"
+                                                style="color: #ffffff;"></i>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="img position-relative">
+                                <img class="w-100" src="images/portfolio/5.jpg" alt="">
+                                <div
+                                    class="caption position-absolute  d-flex flex-column justify-content-center align-items-center opacity-0">
+                                    <p class="fw-bold text text-black">WEB DESIGN</p>
+                                    <div class="d-flex ">
+                                        <div class="circle">
+                                            <i class="pe-2 fa-solid fa-chain-slash fa-xs" style="color: #ffffff;"></i>
+                                        </div>
+                                        <div class="circle">
+                                            <i class="fa-solid fa-magnifying-glass-plus fa-xs"
+                                                style="color: #ffffff;"></i>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="tab-pane fade" id="pills-graphic" role="tabpanel" aria-labelledby="pills-graphic-tab"
+                    tabindex="0">
+                    <div class="row g-4 py-5">
+                        <div class="col-md-6 col-lg-4">
+                            <div class="img position-relative">
+                                <img class="w-100" src="images/portfolio/1.jpg" alt="">
+                                <div
+                                    class="caption position-absolute  d-flex flex-column justify-content-center align-items-center opacity-0">
+                                    <p class="fw-bold text text-black">WEB DESIGN</p>
+                                    <div class="d-flex ">
+                                        <div class="circle">
+                                            <i class="pe-2 fa-solid fa-chain-slash fa-xs" style="color: #ffffff;"></i>
+                                        </div>
+                                        <div class="circle">
+                                            <i class="fa-solid fa-magnifying-glass-plus fa-xs"
+                                                style="color: #ffffff;"></i>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="img position-relative">
+                                <img class="w-100" src="images/portfolio/3.jpg" alt="">
+                                <div
+                                    class="caption position-absolute  d-flex flex-column justify-content-center align-items-center opacity-0">
+                                    <p class="fw-bold text text-black">WEB DESIGN</p>
+                                    <div class="d-flex ">
+                                        <div class="circle">
+                                            <i class="pe-2 fa-solid fa-chain-slash fa-xs" style="color: #ffffff;"></i>
+                                        </div>
+                                        <div class="circle">
+                                            <i class="fa-solid fa-magnifying-glass-plus fa-xs"
+                                                style="color: #ffffff;"></i>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="img position-relative">
+                                <img class="w-100" src="images/portfolio/5.jpg" alt="">
+                                <div
+                                    class="caption position-absolute  d-flex flex-column justify-content-center align-items-center opacity-0">
+                                    <p class="fw-bold text text-black">WEB DESIGN</p>
+                                    <div class="d-flex ">
+                                        <div class="circle">
+                                            <i class="pe-2 fa-solid fa-chain-slash fa-xs" style="color: #ffffff;"></i>
+                                        </div>
+                                        <div class="circle">
+                                            <i class="fa-solid fa-magnifying-glass-plus fa-xs"
+                                                style="color: #ffffff;"></i>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="client" class="client py-5 bg-body-tertiary">
+        <div class="container text-center py-5">
+            <div class="d-flex justify-content-center align-items-center">
+                <div class="dot-head">
+                    <h1 class="head h1">Testimonials.</h1>
+                </div>
+            </div>
+
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="mt-5 pt-5">
+                            <img class="client-img" src="images/1_New1.jpg" alt="">
+                            <p class="pt-3" style="color:#748182 ; line-height: 1.6; ">
+                                Lorem Ipsum has been the industry's standard dummy text ever
+                                since the when an unknown printer took a galley of type and
+                                scrambled it to make a type specimen book.
+                            </p>
+                            <h4 class="fs-6 fw-bold h4">Alex Smith</h4>
+                            <h5 class="fs-6 h5" style="color:#748182">Envato Customer</h5>
+
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="mt-5 pt-5">
+                            <img class="client-img" src="images/1_New1.jpg" alt="">
+                            <p class="pt-3" style="color:#748182 ; line-height: 1.6; ">
+                                Lorem Ipsum has been the industry's standard dummy text ever
+                                since the when an unknown printer took a galley of type and
+                                scrambled it to make a type specimen book.
+                            </p>
+                            <h4 class="fs-6 fw-bold h4">Alex Smith</h4>
+                            <h5 class="fs-6 h5" style="color:#748182">Envato Customer</h5>
+
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="mt-5 pt-5">
+                            <img class="client-img" src="images/1_New1.jpg" alt="">
+                            <p class="pt-3" style="color:#748182 ; line-height: 1.6; ">
+                                Lorem Ipsum has been the industry's standard dummy text ever
+                                since the when an unknown printer took a galley of type and
+                                scrambled it to make a type specimen book.
+                            </p>
+                            <h4 class="fs-6 fw-bold h4">Alex Smith</h4>
+                            <h5 class="fs-6 h5" style="color:#748182">Envato Customer</h5>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="counter py-5">
+        <div class="container py-5">
+            <div class="row g-4">
+                <div class="col-lg-3">
+                    <div class="text-center">
+                        <i class="fa-solid fa-users fa-2xl mb-4"></i>
+                        <p class="number fs-2 fw-bolder mb-1">850</p>
+                        <p class="fw-bold p2" style="color: #748182;">Happy Customers</p>
+                    </div>
+
+                </div>
+                <div class="col-lg-3">
+                    <div class="text-center">
+                        <i class="fa-solid fa-thumbs-up fa-2xl mb-4"></i>
+                        <p class="fs-2 fw-bolder mb-1">230</p>
+                        <p class="fw-bold p2" style="color: #748182;">Complete Projects</p>
+                    </div>
+
+                </div>
+                <div class="col-lg-3">
+                    <div class="text-center">
+                        <i class="fa-solid fa-bullhorn fa-2xl mb-4"></i>
+                        <p class="fs-2 fw-bolder mb-1">9450</p>
+                        <p class="fw-bold p2" style="color: #748182;">Lines Of Code</p>
+                    </div>
+
+                </div>
+                <div class="col-lg-3">
+                    <div class="text-center">
+                        <i class="fa-solid fa-cloud-download fa-2xl mb-4"></i>
+                        <p class="fs-2 fw-bolder mb-1">780</p>
+                        <p class="fw-bold p2" style="color: #748182;">Files Downloaded</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="team" class="team py-5 bg-body-tertiary">
+        <div class="container py-5 text-center">
+            <div class="d-flex justify-content-center align-items-center">
+                <div class="dot-head">
+                    <h1 class="head h1">Our Team.</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-4 mt-5 pt-5">
+                    <div class="team-card">
+                        <div class="img position-relative">
+                            <img class="w-100" src="images/1.jpg" alt="">
+                            <div class="caption position-absolute">
+                                <div class="icons d-flex justify-content-center align-items-center">
+                                    <div class="circle">
+                                        <i class="fa-brands fa-linkedin-in fa-sm fa-flip-horizontal "
+                                            style="color: #ffffff;"></i>
+                                    </div>
+                                    <div class="circle">
+                                        <i class="fa-brands fa-pinterest fa-flip-horizontal fa-sm  "
+                                            style="color: #ffffff;"></i>
+                                    </div>
+                                    <div class="circle">
+                                        <i class="fa-brands fa-twitter fa-flip-horizontal fa-sm  "
+                                            style="color: #ffffff;"></i>
+                                    </div>
+                                    <div class="circle">
+                                        <i class="fa-brands fa-facebook-f fa-flip-horizontal fa-sm  "
+                                            style="color: #ffffff;"></i>
+                                    </div>
+
+
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text text-white p-2 rounded-bottom" style="background-color:#535353;">
+                            <h2>John Doe</h2>
+                            <p class="fw-bold">Front-End Developer</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-6 col-lg-4 mt-5 pt-5">
+                    <div class="team-card">
+                        <div class="img position-relative">
+                            <img class="w-100" src="images/2.jpg" alt="">
+                            <div class="caption position-absolute">
+                                <div class="icons d-flex justify-content-center align-items-center">
+                                    <div class="circle">
+                                        <i class="fa-brands fa-linkedin-in fa-sm fa-flip-horizontal "
+                                            style="color: #ffffff;"></i>
+                                    </div>
+                                    <div class="circle">
+                                        <i class="fa-brands fa-pinterest fa-flip-horizontal fa-sm  "
+                                            style="color: #ffffff;"></i>
+                                    </div>
+                                    <div class="circle">
+                                        <i class="fa-brands fa-twitter fa-flip-horizontal fa-sm  "
+                                            style="color: #ffffff;"></i>
+                                    </div>
+                                    <div class="circle">
+                                        <i class="fa-brands fa-facebook-f fa-flip-horizontal fa-sm  "
+                                            style="color: #ffffff;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text text-white p-2 rounded-bottom" style="background-color:#535353;">
+                            <h2>Dave Wood</h2>
+                            <p class="fw-bold">Back-End Developer</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-6 col-lg-4 mt-5 pt-5">
+                    <div class="team-card">
+                        <div class="img position-relative">
+                            <img class="w-100" src="images/1.jpg" alt="">
+                            <div class="caption position-absolute">
+                                <div class="icons d-flex justify-content-center align-items-center">
+                                    <div class="circle">
+                                        <i class="fa-brands fa-linkedin-in fa-sm fa-flip-horizontal "
+                                            style="color: #ffffff;"></i>
+                                    </div>
+                                    <div class="circle">
+                                        <i class="fa-brands fa-pinterest fa-flip-horizontal fa-sm  "
+                                            style="color: #ffffff;"></i>
+                                    </div>
+                                    <div class="circle">
+                                        <i class="fa-brands fa-twitter fa-flip-horizontal fa-sm  "
+                                            style="color: #ffffff;"></i>
+                                    </div>
+                                    <div class="circle">
+                                        <i class="fa-brands fa-facebook-f fa-flip-horizontal fa-sm  "
+                                            style="color: #ffffff;"></i>
+                                    </div>
+
+
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text text-white p-2 rounded-bottom" style="background-color:#535353;">
+                            <h2>Claire Chedd</h2>
+                            <p class="">Back-End Developer</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+        </div>
+
+    </section>
+    <section id="contact" class="contact py-5">
+        <div class="container text-center py-5">
+            <div class="d-flex justify-content-center align-items-center">
+                <div class="dot-head">
+                    <h1 class="head h1">Contact Us.</h1>
+                </div>
+            </div>
+            <div class="row py-5 px-5 g-5">
+                <div class="col-lg-4 px-3">
+                    <div class=" contact-card d-flex justify-content-center align-items-center flex-column px-3">
+                        <div class="circle">
+                            <i class="fa-solid fa-location-arrow fa-2xl pb-5" style="color: black"></i>
+                        </div>
+                        <h5 class="fw-bold fs-6">Address</h5>
+                        <p class="m-0" style="color: rgb(116, 129, 130);">6834 Hollywood Blvd - Los Angeles CA</p>
+
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="contact-card d-flex justify-content-center align-items-center flex-column">
+                        <div class="circle">
+                            <i class="fa-solid fa-envelope fa-2xl pb-5" style="color: black"></i>
+                        </div>
+                        <h5 class="fw-bold fs-6">Email</h5>
+                        <p style="color: rgb(116, 129, 130);">Support@website.com</p>
+
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="contact-card d-flex justify-content-center align-items-center flex-column">
+                        <div class="circle">
+                            <i class="fa-solid fa-phone fa-2xl pb-5" style="color: black"></i>
+                        </div>
+                        <h5 class="fw-bold fs-6">Phone</h5>
+                        <p style="color: rgb(116, 129, 130);">+20 010 2517 8918</p>
+
+                    </div>
+                </div>
+            </div>
+            <form action="">
+                <div class="row g-4">
+                    <div class="col-lg-6">
+                        <input type="text" style="background-color: rgb(244, 244, 244);" placeholder="Name"
+                            class="form-control">
+                    </div>
+                    <div class="col-lg-6">
+                        <input type="text" style="background-color: rgb(244, 244, 244);" placeholder="Email"
+                            class="form-control">
+                    </div>
+                    <div class="col-12">
+                        <textarea name="" style="background-color: rgb(244, 244, 244);" placeholder="Message"
+                            class="form-control" id="" cols="12" rows="6"></textarea>
+                    </div>
+                    <button class="btn text-white w-auto ms-2 me-auto "
+                        style="background-color: rgb(28, 28, 28);">Submit</button>
+                </div>
+            </form>
+
+
+        </div>
+    </section>
+    <footer>
+        <div class="container text-center">
+            <div class="row justify-content-center align-items-center">
+                <div class="mt-2">
+                    <p>Copy Right 2018 © By Mohamed said All Rights Reserved</p>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: [' Developer', ' Designer', 'M.said'],
+            typeSpeed: 50,
+            backSpeed: 30,
+            loop: true,
+            loopCount: Infinity,
+        });
+    </script>
+</body>
+
+</html>
